@@ -7,7 +7,7 @@ import Contact from './componenets/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-resumme-web">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
