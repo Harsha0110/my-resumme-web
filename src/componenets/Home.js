@@ -50,7 +50,7 @@ const Home = () => {
             Whether it's a sleek user interface or robust backend logic, I take pride in delivering <span className="highlight">high-quality solutions</span> tailored to client needs.
           </p>
           <p>
-            Outside of coding, I enjoy <span className="highlight">exploring new technologies</span>, 
+            Outside of coding, I enjoy <span className="highlight">exploring new technologies like blockchain </span>, 
             <span className="highlight">mentoring aspiring developers</span>, and contributing to <span className="highlight">open-source projects</span>.
           </p>
         </div>
