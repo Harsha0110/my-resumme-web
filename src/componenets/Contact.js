@@ -73,8 +73,13 @@ const Contact = () => {
 
         <button type="submit">Submit</button>
       </form>
+      <div className="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Phone:</strong> <a href="tel:7549851124">754-985-1124</a></p>
+        <p><strong>Email:</strong> <a href="mailto:anandharsh1729@gmail.com">anandharsh1729@gmail.com</a></p>
+      </div>
     </div>
   );
-};
+}
 
 export default Contact;
