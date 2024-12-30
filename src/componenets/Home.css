@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background: #8dbbdb; /* Light blue */
+  background: #f4f4f4; /* Light grey */
   overflow-x: hidden;
 }
 
@@ -13,7 +13,7 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background: linear-gradient(120deg, #42a5f5, #1e88e5); /* Blue shades */
+  background: linear-gradient(120deg, #2c3e50, #4ca1af); /* Darker blue shades */
   padding: 100px 20px;
   color: #fff;
 }
@@ -21,7 +21,7 @@ body {
 .hero-title {
   font-size: 3rem;
   margin: 0;
-  animation: fadeInDown 1s ease-out;
+  font-weight: bold;
 }
 
 .hero-title span {
@@ -29,9 +29,9 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 10px;
-  animation: fadeInUp 1.5s ease-out;
+  font-weight: 300;
 }
 
 /* About Section */
@@ -89,18 +89,6 @@ body {
   pointer-events: none; /* Prevent trail from interfering with user interactions */
   animation: fadeTrail 0.7s ease-out;
 }
-
-@keyframes fadeTrail {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(2);
-  }
-}
-
 
 @keyframes fadeTrail {
   0% {
